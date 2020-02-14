@@ -8,7 +8,7 @@ const Navbar = (props) => {
       setDarkMode(!darkMode);
     };
     return (
-      <nav className="navbar">
+      <nav className="navbar" id="navbar">
         <h1>Football Players</h1>
         <div className="dark-mode__toggle">
           <div
